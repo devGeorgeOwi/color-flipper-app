@@ -1,0 +1,51 @@
+body {
+	font-family: "Tahoma";
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.color-container {
+	position: relative;
+	height: 550px;
+	margin: 1em 4em 2em 4em;
+}
+#showcolor {
+  position: absolute;
+  font-size: 18px;
+  margin-left: 473px;
+    margin-top: 240px;
+  padding: 20px;
+  width: 20%;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+.btn-color {
+	border-radius: 6px;
+	background: transparent;
+	border: 3px solid black;
+	width: 20%;
+	margin-top: 27em;
+	margin-left: 37em;
+	padding: 1em 0.5em;
+}
+ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	/*margin: 0 20em;*/
+}
+ul li a {
+	text-decoration: none;
+	margin: 0 8em;
+}
+#color {
+	color: blue;
+}
+#hex {
+	color: black;
+}
+hr {
+	margin-top: 2em;
+	color: gray;
+}
